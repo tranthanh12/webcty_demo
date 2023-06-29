@@ -8,7 +8,6 @@
 
 .service_content {
     width: 100%;
-    /* position: relative; */
 }
 
 .service_banner {
@@ -20,9 +19,6 @@
 }
 
 .our_service {
-    /* position: absolute;
-    top: 65%;
-    left: 19%; */
     margin-top: -225px;
 }
 
@@ -129,20 +125,7 @@
     }
 }
 
-@media screen and (min-width: 1500px) and (max-width: 1600px) {
-    .our_service {
-        position: absolute;
-        top: 65%;
-        left: 14%;
-    }
-}
-
 @media screen and (min-width: 1350px) and (max-width: 1499px) {
-    .our_service {
-        position: absolute;
-        top: 65%;
-        left: 7%;
-    }
 
     .service_item {
         width: 100%;
@@ -152,9 +135,6 @@
 
 @media screen and (min-width: 1050px) and (max-width: 1350px) {
     .our_service {
-        /* position: absolute; */
-        /* top: 65%;
-        left: 5%; */
         width: 92%;
         margin: auto;
         margin-top: -225px;
@@ -263,7 +243,7 @@
     }
 
     .link_service p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
